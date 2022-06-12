@@ -19,5 +19,5 @@ http://www.mulesoft.org/schema/mule/db http://www.mulesoft.org/schema/mule/db/cu
 	<db:config name="uho_Database_Config" doc:name="Database Config" doc:id="1be94849-0091-4739-b50f-0d864d4a2d0a" >
 		<db:oracle-connection host="${secure::database.uho.host}" user="${secure::database.uho.user}" password="${secure::database.uho.password}" instance="${secure::database.uho.instance}" port="${secure::database.uho.port}"/>
 	</db:config>
-	<!-- <api-gateway:autodiscovery apiId="${api.id}" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="227cfad4-60eb-4810-8b53-8607edd57271" flowRef="uho-sapi-main" />  -->
+<api-gateway:autodiscovery apiId="${api.id}" ignoreBasePath="true" doc:name="API Autodiscovery" doc:id="227cfad4-60eb-4810-8b53-8607edd57271" flowRef="uho-sapi-main" />
 </mule>
