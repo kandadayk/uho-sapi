@@ -1,0 +1,10 @@
+http:
+  port: "8082"
+
+database:
+  uho:
+    host: "localhost"
+    port: "1521"
+    user: "system"
+    password: "![9NINUldQFj/E/NezHhiRNg==]"
+    instance: "XE"

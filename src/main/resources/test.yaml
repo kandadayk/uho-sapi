@@ -1,0 +1,10 @@
+http:
+  port: "8081"
+
+database:
+  uho:
+    host: "oracle-58801-0.cloudclusters.net"
+    port: "15406"
+    user: "uhodevuser"
+    password: "![z86pbR0Lg/Ok6YMnxmYGEg==]"
+    instance: "XE"
