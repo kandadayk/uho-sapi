@@ -5,7 +5,7 @@ baseUri: http://{environment}/covid/{version}/
 baseUriParameters:
   environment:
     description: DEV, TEST, UAT, PROD
-    enum: ["uho-sapi-dev.us-e2.cloudhub.io","uho-sapi-test.us-e2.cloudhub.io""]
+    enum: ["uho-sapi-dev.us-e2.cloudhub.io","uho-sapi-test.us-e2.cloudhub.io"]
 traits:
   client-id-header: !include exchange_modules/211b6bc1-539e-47ec-b5b0-34323c5d74f8/client-id-required/1.0.0/client-id-required.raml
   transaction-header: !include exchange_modules/211b6bc1-539e-47ec-b5b0-34323c5d74f8/transaction-header/1.0.0/transaction-header.raml
