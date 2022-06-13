@@ -18,7 +18,7 @@
 	</properties>
 	<profiles>
 		<profile>
-			<id>Sandbox</id>
+			<id>dev</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -28,8 +28,8 @@
 						<extensions>true</extensions>
 						<configuration>
 							<cloudHubDeployment>
-								<applicationName>uho-sapi-sndbox</applicationName>
-								<environment>Sandbox</environment>
+								<applicationName>uho-sapi-dev</applicationName>
+								<environment>dev</environment>								
 								<region>us-east-1</region>
 								<workers>1</workers>
 								<workerType>MICRO</workerType>
