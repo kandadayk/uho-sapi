@@ -3,8 +3,8 @@ http:
 
 database:
   uho:
-    host: "localhost"
-    port: "1521"
-    user: "system"
-    password: "![9NINUldQFj/E/NezHhiRNg==]"
+    host: "oracle-80151-0.cloudclusters.net"
+    port: "18786"
+    user: "uhodevuser"
+    password: "![Zz0EGySXUa/aoH3u/nl1KA==]"
     instance: "XE"
